@@ -42,6 +42,7 @@ git remote -v --- to check the current remote origin
 remote - github vs local - local system / intelliJ/ terminal /git
 
 Branch
+
 what is a branch ?
 
 pointer to a specific commit
