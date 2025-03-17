@@ -2,7 +2,7 @@ package MAR15;
 
 public class MTHOD_OVERIDING {
     public static void main(String[] args) {
-        ///  POLYMEORPHISM
+        ///  POLYMORPHISM
 
         /*
         2 TYPE
