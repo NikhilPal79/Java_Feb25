@@ -87,6 +87,7 @@ Pull Request [PR] , git bash - merge request
 main - LOCKED staging - LOCKED feature
 
 ask our teammates to approve our code before it can be merged to staging/main
+
      */
     
 }
