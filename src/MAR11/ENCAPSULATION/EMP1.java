@@ -1,13 +1,13 @@
 package MAR11.ENCAPSULATION;
 
-public class EMP {
+public class EMP1 {
 
     private int id;
     private String name;
 
     ///  creating constructor
 
-    public EMP(int id, String name) {
+    public EMP1(int id, String name) {
         this.id = id;
         this.name = name;
     }

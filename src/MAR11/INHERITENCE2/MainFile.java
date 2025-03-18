@@ -1,9 +1,9 @@
-package MAR11;
+package MAR11.INHERITENCE2;
 
 public class MainFile {
     public static void main(String[] args) {
 
-        FilePermission filePermission = new FilePermission("richdad poordad", 1025);
+        FilePermission1 filePermission = new FilePermission1("richdad poordad", 1025);
         filePermission.filedesc("richdad poordad",1055);/// invalid file cz filenumber is diffrent
         System.out.println();
         filePermission.filedesc("richdad poordad",1025);/// valid cz both things are same

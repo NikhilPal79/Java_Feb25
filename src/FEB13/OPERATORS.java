@@ -1,4 +1,4 @@
-package FEb13;
+package FEB13;
 
 public class OPERATORS {
     public static void main(String[] args) {

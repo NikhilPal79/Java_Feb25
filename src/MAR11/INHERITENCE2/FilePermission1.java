@@ -1,6 +1,6 @@
-package MAR11;
+package MAR11.INHERITENCE2;
 
-public class FilePermission {
+public class FilePermission1 {
 
 
     ///  ASSIGNMENT
@@ -15,7 +15,7 @@ public class FilePermission {
 
     ///  creating a constructor
 
-    public FilePermission(String filename, int filenumber) {
+    public FilePermission1(String filename, int filenumber) {
         this.filename = filename;
         this.filenumber = filenumber;
     }

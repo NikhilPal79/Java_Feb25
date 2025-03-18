@@ -1,11 +1,11 @@
 package MAR11.ENCAPSULATION;
 
-public class LOGINUSER {
+public class LOGINUSER5 {
     private String username;
     private int password;
 
     ///  creating constructor
-    public LOGINUSER(String username, int password) {
+    public LOGINUSER5(String username, int password) {
         this.username = username;
         this.password = password;
     }

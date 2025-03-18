@@ -1,6 +1,4 @@
-package MAR15.METHOD_OVERLOADING;
-
-import java.sql.SQLOutput;
+package MAR15.METHOD_OVERRIDING;
 
 public class SQUARE extends SHAPE{
 

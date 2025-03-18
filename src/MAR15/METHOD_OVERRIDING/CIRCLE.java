@@ -1,4 +1,4 @@
-package MAR15.METHOD_OVERLOADING;
+package MAR15.METHOD_OVERRIDING;
 
 public class CIRCLE extends SHAPE{
 
