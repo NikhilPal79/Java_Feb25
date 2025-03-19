@@ -1,9 +1,9 @@
 package MAR11.ENCAPSULATION;
 
-public class MAINLOGIN {
+public class MAINLOGIN6 {
     public static void main(String[] args) {
 
-        LOGINUSER loginuser = new LOGINUSER("user", 12345);
+        LOGINUSER5 loginuser = new LOGINUSER5("user", 12345);
         /*System.out.println(loginuser.username);
         System.out.println(loginuser.password);*/
         System.out.println();

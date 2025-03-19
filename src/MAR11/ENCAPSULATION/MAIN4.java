@@ -1,9 +1,9 @@
 package MAR11.ENCAPSULATION;
 
-public class MAIN {
+public class MAIN4 {
     public static void main(String[] args) {
 
-        EMPLOYEE employee = new EMPLOYEE();
+        EMPLOYEE3 employee = new EMPLOYEE3();
         employee.id = 101;
         System.out.println(employee.id);
         employee.name = "nikhil";
