@@ -10,7 +10,7 @@ public class REVRSEARRAY2 {
         int[] arr = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
 
         int n = arr.length;
-        for (int i = 0; i < arr.length / 2; i++) {
+        for (int i = 0; i < arr.length /2 ; i++) {
             /*
             int temp = x
             int x = int y
@@ -26,7 +26,7 @@ public class REVRSEARRAY2 {
         System.out.println("reverse array");
         for (int num : arr) {
 
-            System.out.print(num + " ");
+            System.out.print( num + " ");
 
         }
 

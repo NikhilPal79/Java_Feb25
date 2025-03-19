@@ -1,4 +1,4 @@
-package MAR1;
+package MAR1.STATIC;
 
 public class PRODUCTMAIN {
     public static void main(String[] args) {

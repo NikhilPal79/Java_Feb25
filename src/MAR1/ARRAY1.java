@@ -6,16 +6,16 @@ public class ARRAY1 {
 
     /*
     int rollno = 1;
-    int rollno =2;
+    int rollno = 2;
 
     to store 100 roll no we need to used array
 
     ARRAY =====> COLLECTION OF HOMOGENOUS DATA TYPE
 
     index
-    1 = 101
-    2 = 102
-    3 103
+    0 = 101
+    1 = 102
+    2 = 103
 
     array index starts with 0
     length of a array(0-9) = 10

@@ -1,4 +1,4 @@
-package MAR1;
+package MAR1.STATIC;
 
 public class STATIC_EXAM {
 

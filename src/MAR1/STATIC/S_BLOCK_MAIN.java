@@ -1,4 +1,4 @@
-package MAR1;
+package MAR1.STATIC;
 
 public class S_BLOCK_MAIN {
     public static void main(String[] args) {

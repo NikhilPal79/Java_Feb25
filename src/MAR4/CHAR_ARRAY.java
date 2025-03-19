@@ -5,7 +5,7 @@ public class CHAR_ARRAY {
 
         ///  STRING
 
-        ///  string is sequence od character
+        ///  string is sequence of character
         ///  string is immutable (we cant change/modify) in terms of memory
 
         // 1. character array
@@ -16,13 +16,13 @@ public class CHAR_ARRAY {
         /*
         1. USING STRING LITERAL
 
-        String name = "Pragra" {THIS name is stored in stack while PRAGRA is giong to stored in STRING CONSTANT POOL IN HEAP}
+        String name = "Pragra";      {THIS name is stored in stack while PRAGRA is giong to stored in STRING CONSTANT POOL IN HEAP}
 
-        String myName = "Pragra"{myName in stack and Pragra in STRING CONSTANT POOL IN HEAP}
+        String myName = "Pragra";    {myName in stack and Pragra in STRING CONSTANT POOL IN HEAP}
 
         2. NEW KEYWORD
 
-        String name = new String("Pragra") {in this Pragra directly stored in heap as object }
+        String name = new String("Pragra");      {in this Pragra directly stored in heap as object }
 
          */
         String name = "pragra";

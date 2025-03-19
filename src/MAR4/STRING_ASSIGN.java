@@ -12,6 +12,7 @@ public class STRING_ASSIGN {
 
         String s1 = "nikhil";
 
+
         char[] charArray = s1.toCharArray(); /// CONVERTING IT STRING INTO ARRAY USING .TOCHARARRAY THAN .VAR
 
 
@@ -23,9 +24,9 @@ public class STRING_ASSIGN {
             charArray[n-i-1] = temp;
         }
         System.out.println("reverse array");
-        for (char ch : charArray ){
+        for (char p : charArray ){
 
-            System.out.print(ch);/// not using ln in print
+            System.out.print(p + " ");/// not using ln in print. //   ( p is just an element )
 
 
         }

@@ -1,7 +1,5 @@
 package MAR18.INTERFACE;
 
-import MAR1.S_BLOCK_MAIN;
-
 public class MAIN {
     public static void main(String[] args) {
 
