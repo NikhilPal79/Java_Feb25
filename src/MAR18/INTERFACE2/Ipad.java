@@ -1,6 +1,7 @@
 package MAR18.INTERFACE2;
 
 public class Ipad implements Apple{
+
     @Override
     public void appleProduct() {
         System.out.println("Iphone15 is Apple product ");

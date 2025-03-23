@@ -1,6 +1,6 @@
 package MAR18.INTERFACE2;
 
-public class Iphone16 extends Iphone15 implements Apple{
+public class Iphone16 extends Iphone15 implements Apple {
 
 
     @Override
