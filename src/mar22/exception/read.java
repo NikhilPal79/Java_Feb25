@@ -10,7 +10,7 @@ public class read {
     An exception is an abnormal condition that arises in a code sequence at run time.
     In other words, an exception is a run-time error.
 
-    Java exception handling is managed via five keywords: try, catch, throw, throws, and finally
+    Java exception handling is managed via five keywords: try, catch,finally,throw and throws.
 
     */
 
@@ -30,19 +30,20 @@ public class read {
     // 1. CHECKED EXCEPTION ==> COMPILE TIME OR IO EXCEPTION
 
     // The classes that directly inherit the Throwable class except RuntimeException and Error are known as checked exceptions.
-    // For example, IOException, SQLException, etc. Checked exceptions are checked at compile-time
+    // For example, IOException, SQLException, etc.
+    // Checked exceptions are checked at compile-time
 
     // 2. UNCHECKED EXCEPTION ===> RUN-TIME OR NULL POINTER EXCEPTION
 
-    // The classes that inherit the RuntimeException are known as unchecked exceptions. For example, ArithmeticException,
-    // NullPointerException,ArrayIndexOutOfBoundsException, etc.
+    // The classes that inherit the RuntimeException are known as unchecked exceptions.
+    // For example, ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException, etc.
     // Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
 
     ///  2 TYPES OF ERRORS
 
     // 1.  VIRTUAL MACHINE ERRORS
 
-    // 2. ASSERTION ERROR
+    // 2.   ASSERTION ERROR
 
     ///  EXCEPTION HANDLING 5 KEYWORDS
 
@@ -71,7 +72,7 @@ public class read {
 
     ///  throw ========> use for the customised exception
 
-    ///  throws ========> used for to declare the exception
+    ///  throws ========> used to declare the exception
 
 
 

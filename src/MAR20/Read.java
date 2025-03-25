@@ -6,7 +6,7 @@ public class Read {
 
     /*Opearting stystem - interface between hardware and user.
 
-    UI - User interace
+    UI - User interface
 
     API ===>Application Programming Interface. communicate between two systems/ apps
 
@@ -44,7 +44,7 @@ public class Read {
 
     uber - Java , find the address between location A to location B
 
-    amamzon ---- add to cart --- make payment ---> redirect to RBC portal behind the scene they communicate with bank
+    amazon ---- add to cart --- make payment ---> redirect to RBC portal behind the scene they communicate with bank
 
     card info ----> check with bank
 
