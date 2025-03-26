@@ -72,7 +72,7 @@ public class read {
 
     ///  throw ========> use for the customised exception
 
-    ///  throws ========> used to declare the exception
+    ///  throws ========> added to the method signature // delicating your responsibility to someone else // someone will handle it
 
 
 

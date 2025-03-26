@@ -1,0 +1,11 @@
+package mar25;
+
+public class Class {
+
+
+    /// INTERVIEW QUESTION = DIFF BETWEEN THE FINAL, FINALLY AND FINALIZE() KEYWORD ?
+
+    ## INNER CLASS AND NESTED CLASS
+
+
+}
