@@ -43,7 +43,7 @@ public class read {
 
     // 1.  VIRTUAL MACHINE ERRORS
 
-    // 2.   ASSERTION ERROR
+    // 2.  ASSERTION ERROR
 
     ///  EXCEPTION HANDLING 5 KEYWORDS
 
