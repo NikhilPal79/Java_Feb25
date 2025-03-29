@@ -1,4 +1,4 @@
-package mar25.InnerClass;
+package mar25.InnerClass1;
 
 public class Calculator {
 

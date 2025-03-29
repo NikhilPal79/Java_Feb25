@@ -1,4 +1,4 @@
-package mar25.Static;
+package mar25.Static2;
 
 public class Main {
     public static void main(String[] args) {
