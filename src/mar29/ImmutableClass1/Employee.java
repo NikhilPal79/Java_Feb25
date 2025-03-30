@@ -55,14 +55,3 @@ public final class Employee {  ///  make private class
     }
 }
 
-///  CREATE A MAIN CLASS
-class main {
-    public static void main(String[] args) {
-
-        Employee employee = new Employee(5072, "nikhil", "nikhilchpr7@gmail.com");
-        System.out.println(employee.getId());
-        System.out.println(employee);
-
-
-    }
-}
