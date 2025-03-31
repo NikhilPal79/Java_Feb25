@@ -9,10 +9,11 @@ public class MOBILE2 {
     double capacity;
     String color;
 
-    ///  adding default constructor
+    ///  adding default constructor(select none)
     public MOBILE2() {
     }
 
+    ///  adding constructor
     public MOBILE2(String brand, double capacity, String color) {
         this.brand = brand;
         this.capacity = capacity;
