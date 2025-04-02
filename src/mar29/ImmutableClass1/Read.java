@@ -5,6 +5,10 @@ public class Read {
 
     ///Wrapper classes ?
 
+    ///  all the wrapper classes are in-built classes
+    // Integer
+    // Double
+
     // type casting ? convert one type to another type
 
     // int -> float Upcasting/downcasting
@@ -16,9 +20,14 @@ public class Read {
     //int -- Integer float -- Float long -- Long double -- Double char -- Character boolean -- Boolean
 
     /// Immutable classes ?
-    /// Strings - immutable ?
+    /// Strings === Character array - immutable ?
 
-    // all the fields should be private and final class should be final there should be no setter methods we should override equals and hashcode method
+    ///  IMPORTANT == Why string are immutable ?
+
+
+
+    // all the fields should be private and final class should be final there should be no setter methods we should
+    // override equals and hashcode method
 
     /// equals() and hashcode()
             // if two objects are equal they must have the same hashcode.
