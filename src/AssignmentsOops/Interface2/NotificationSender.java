@@ -2,5 +2,5 @@ package AssignmentsOops.Interface2;
 
 public interface NotificationSender {
 
-    char sendNotification(String message);
+    void sendNotification(String message);
 }

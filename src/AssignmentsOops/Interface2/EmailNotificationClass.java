@@ -4,9 +4,13 @@ public class EmailNotificationClass implements NotificationSender,EmailNotificat
 
     private String senderEmail;
 
+    public EmailNotificationClass(String senderEmail) {
+        this.senderEmail = senderEmail;
+    }
+
     @Override
     public void sendNotification(String message) {
-        System.out.println("you have received email from " + senderEmail)
+        System.out.println("sending email from " + senderEmail + message );
 
     };
 }

@@ -10,6 +10,6 @@ public class SMSNotificationClass implements NotificationSender, SMSNotification
 
     @Override
     public void sendNotification(String message) {
-        System.out.println("you have received a sms form " + smsNumber )
-    };
+        System.out.println("sending sms to " + smsNumber + message );
+    }
 }

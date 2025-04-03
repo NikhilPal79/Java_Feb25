@@ -5,5 +5,5 @@ public interface SMSNotification extends NotificationSender {
 
 
     @Override
-    char sendNotification(String sms);
+    void sendNotification(String smsNumber);
 }
