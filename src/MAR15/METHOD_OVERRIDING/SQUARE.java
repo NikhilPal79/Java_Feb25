@@ -4,10 +4,17 @@ public class SQUARE extends SHAPE{
 
     double side ;
 
+    ///  crearting contructor
+
+
+    public SQUARE(double side) {
+        this.side = side;
+    }
+
     /// METHOD OVERRIDE
 
-    /*@Override
+    @Override
     public double area() {
         return side * side;
-    }*/
+    }
 }

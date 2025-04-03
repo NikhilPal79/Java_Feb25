@@ -1,6 +1,6 @@
 package MAR15.METHOD_OVERRIDING;
 
-public class MTHOD_OVERIDING {
+public class Read {
     public static void main(String[] args) {
         ///  POLYMORPHISM
 
@@ -36,5 +36,20 @@ public class MTHOD_OVERIDING {
         /*
         same name and different implementation and this is achieved in when there is inheritance
         */
+
+
+
+///SOLID principles
+
+/*
+S - single responsibility
+O - open close Principle
+
+
+open for extension but closed for modification
+
+
+
+ */
     }
 }

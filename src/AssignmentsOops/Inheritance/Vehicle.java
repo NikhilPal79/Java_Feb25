@@ -22,16 +22,16 @@ public class Vehicle {
     ///  creating methods
 
     public void start(){
-        System.out.println("vehicle starts");
+        System.out.println(make + " " + model + " is starting");
 
     }
 
     public void stop(){
-        System.out.println("vehicle stops");
+        System.out.println(make + " " + model + " is stopping");
     }
 
     public void displayInfo(){
-        System.out.println("showing information");
+        System.out.println("vehicle info : " + year + " " + make + " " + model);
     }
 
 }

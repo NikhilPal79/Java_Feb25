@@ -3,37 +3,22 @@ package AssignmentsOops.Inheritance;
 public class Main {
     public static void main(String[] args) {
 
-        Car car = new Car();
-        car.carMethod();
-        car.displayInfo();
+        Car car = new Car("HONDA","TOURING",2018,4);
         car.start();
         car.stop();
-        System.out.println(car.make = "honda");
-        System.out.println(car.model = "Touring");
-        System.out.println(car.year = 2018);
-        System.out.println(car.numberOfDoors = 4);
+        car.displayInfo();
         System.out.println();
 
-
-        Motorcycle motorcycle = new Motorcycle();
-        motorcycle.MotorCycleMethod();
-        motorcycle.displayInfo();
+        Motorcycle motorcycle = new Motorcycle("YAMAHA","FZ v2",2023,2);
         motorcycle.start();
         motorcycle.stop();
-        System.out.println(motorcycle.make = "bmw");
-        System.out.println(motorcycle.model = "sports");
-        System.out.println(motorcycle.year = 2022);
-        System.out.println(motorcycle.numberOfCylinders = 2);
+        motorcycle.displayInfo();
         System.out.println();
 
-        ElectricCar electricCar = new ElectricCar();
-        electricCar.displayInfo();
+        ElectricCar electricCar = new ElectricCar("TESLA","MODEL Y ",2025,4,95);
         electricCar.start();
         electricCar.stop();
-        System.out.println(electricCar.make = "tesla");
-        System.out.println(electricCar.model = "suv");
-        System.out.println(electricCar.year = 2025);
-        System.out.println(electricCar.batteryCapacity = 100);
+        electricCar.displayInfo();
 
 
     }

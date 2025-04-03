@@ -4,15 +4,15 @@ public class Car extends Vehicle{
 
     int numberOfDoors;
 
-    public Car() {
-    }
 
-    public Car(int numberOfDoors) {
+    public Car(String make, String model, int year, int numberOfDoors) {
+        super(make, model, year);
         this.numberOfDoors = numberOfDoors;
     }
 
-
-    public void carMethod(){
-        System.out.println("showing car method");
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
+        System.out.println("number of doors : " + numberOfDoors);
     }
 }

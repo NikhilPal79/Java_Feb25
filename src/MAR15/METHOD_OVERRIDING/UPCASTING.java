@@ -6,7 +6,7 @@ public class UPCASTING {
         ///  UPCASTING
         ///  CHILD CLASS OBJECT IS ASSIGNED TO PARENT CLASS OBJECT
 
-        SHAPE square = new SQUARE();
+        SHAPE square = new SQUARE(5);
         System.out.println(square.area());
         System.out.println();
         ///  it is going to give area of square with side of 5
@@ -14,7 +14,7 @@ public class UPCASTING {
         ///  lets create a triangle class
         ///  it will go to the shape class only on runtime
 
-        SHAPE triangle = new TRIANGLE();
+        SHAPE triangle = new TRIANGLE(10,20);
         /*triangle.height = 5.0;
         triangle.length = 20.0;*/
         System.out.println(triangle.area());

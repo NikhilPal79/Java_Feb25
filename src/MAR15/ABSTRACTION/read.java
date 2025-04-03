@@ -1,6 +1,6 @@
 package MAR15.ABSTRACTION;
 
-public class ABSTRACTION {
+public class read {
 
     ///  ABSTRACTION
     /*

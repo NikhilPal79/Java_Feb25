@@ -4,8 +4,8 @@ public class MAIN {
     public static void main(String[] args) {
 
 
-        SQUARE square = new SQUARE();
-        square.side = 10.0;
+        SQUARE square = new SQUARE(10);
+        /*square.side = 10.0;*/
         System.out.println("area of square : " +square.area());
         ///  IF THERE IS NO METHOD IN CHILD CLASS IT WILL ASSIGN TO PARENT CLASS
 
