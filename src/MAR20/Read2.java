@@ -5,6 +5,7 @@ public class Read2 {
     /// SOAP
 
     //Simple Object Access Protocol
+
     /*A standard communication protocol
     over HTTP. Uses an XML data format to
     declare its request and response
@@ -14,6 +15,7 @@ public class Read2 {
     ///REST
 
     //Representational State Transfer
+
     /*Simple API form. Provide
     interoperability between applications
     over network. Mainly used in web and

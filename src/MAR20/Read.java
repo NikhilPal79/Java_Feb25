@@ -19,7 +19,7 @@ public class Read {
 
    /* Representation State Transfer API web service
 
-    build on top of HTTP
+    SPECIAL THING ABOUT REST API =========> build on top of HTTP
 
     Hypertext transfer protocol
 
