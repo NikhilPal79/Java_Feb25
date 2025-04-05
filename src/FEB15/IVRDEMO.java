@@ -22,7 +22,7 @@ public class IVRDEMO {
         if(language == 1) {
             System.out.println("1. BILLING");
             System.out.println("2. TECHNICAL SUPPORT ");
-            System.out.println("3. SALES  ");
+            System.out.println("3. SALES ");
             System.out.println("4. SPEAK TO AN AGENT ");
             System.out.println("5. GO BACK TO MAIN MENU");
             System.out.println("0. EXIT");

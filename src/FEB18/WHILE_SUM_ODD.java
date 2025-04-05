@@ -12,7 +12,7 @@ public class WHILE_SUM_ODD {
         int n = scanner.nextInt();
 
         int sum = 0;
-        int x =1;
+        int x = 1;
 
         while(x <= n){
             sum = sum + x;

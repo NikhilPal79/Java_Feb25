@@ -11,7 +11,7 @@ public class CAL_WITH_LOOPS {
         do {
 
             System.out.println("****************");
-            System.out.println("WELCOME TO MY CALC  ULATOR");
+            System.out.println("WELCOME TO MY CALCULATOR");
             System.out.println("****************");
 
             System.out.println("1. addition");
@@ -90,8 +90,8 @@ public class CAL_WITH_LOOPS {
 
                 System.out.println("do you want to continue");
 
-                System.out.println("press y");
-                System.out.println("press n");
+                System.out.println("press y or Y");
+                System.out.println("press n or N");
 
                 char p = scanner.next().charAt(0);
 

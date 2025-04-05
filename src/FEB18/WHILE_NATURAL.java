@@ -4,7 +4,7 @@ public class WHILE_NATURAL {
     public static void main(String[] args) {
 
 
-        // PRINT OUT THE NAUTRAL NUMBER FROM 1-10
+        // PRINT OUT THE NATURAL NUMBER FROM 1-10
 
         int x = 1;
 

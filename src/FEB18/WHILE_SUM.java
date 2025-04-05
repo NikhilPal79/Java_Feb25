@@ -21,7 +21,6 @@ public class WHILE_SUM {
 
             sum = sum + x;
             x++;
-            System.out.println("the sum of n numbers " + " " + sum);
 
         }
         System.out.println("the sum of n numbers " + " " + sum);

@@ -1,7 +1,7 @@
 package Assignments.Array_String;
 
 public class ArrayRead {
-    /*Conside the given array
+    /*Consider the given array
     number[] = 10,30,43,54,23,543,43,32
 
     Reverse the array

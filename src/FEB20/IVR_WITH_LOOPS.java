@@ -32,7 +32,7 @@ public class IVR_WITH_LOOPS {
                 System.out.println("5. GO BACK TO MAIN MENU");
                 System.out.println("0. INVALID OPTION, ");
             }
-            if (language == 2 ){
+            if (language == 2){
 
                 System.out.println("WELCOME TO FRENCH SECTION");
                 System.out.println("EXIT");
@@ -129,7 +129,6 @@ public class IVR_WITH_LOOPS {
                 if ( p == 'n' || p =='N' ){
                     language = 0;
                     System.out.println("EXIT, THANK YOU");
-
 
                 }
             }

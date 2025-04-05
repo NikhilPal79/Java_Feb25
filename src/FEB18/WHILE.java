@@ -7,8 +7,6 @@ public class WHILE {
 
         // print out the n natural numbers
 
-
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("enter the number");

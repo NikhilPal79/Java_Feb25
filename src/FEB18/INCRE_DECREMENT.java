@@ -1,6 +1,6 @@
 package FEB18;
 
-public class INCRE_DECREMENT {
+public class  INCRE_DECREMENT {
     public static void main(String[] args) {
 
 
@@ -22,7 +22,7 @@ public class INCRE_DECREMENT {
 
      */
         // WHAT WILL BE THE VALUE OF FOLLOWING EXPRESSION ?
-         int y =7;
+         int y = 7;
 
 
         System.out.println(++y * 8); // incremented first then used

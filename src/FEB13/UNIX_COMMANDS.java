@@ -66,7 +66,12 @@ AWS
 create an EC2 instance ELASTIC COMPUTE CLOUD
 
 Linux commands
-touch ls ls -l , ls -lrt , ls - lt, ls -lr -l ---- long list -r -- reverse sort order -t -- based on time
+touch
+ls
+ls -l ,
+ls -lrt ,
+ls - lt,
+ls -lr -l ---- long list -r -- reverse sort order -t -- based on time
 
 -rw-r--r--. - Permissions and file type 1 Memory Block ec2-user - owner name
 ec2-user - group name 0 - Size of file in Bytes

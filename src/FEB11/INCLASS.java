@@ -3,6 +3,9 @@ package FEB11;
 public class INCLASS {
     public static void main(String[] args) {
 
+
+        /// int a; //declaration
+        /// int b = 20; // initialization
         int x = 12;
         int y = 22;
 

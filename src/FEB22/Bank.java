@@ -31,6 +31,8 @@ public class Bank {
         return balance;
     }
 
+    /// adding constructor
+
     public Bank(double balance, int number) {
         this.balance = balance;
         this.number = number;

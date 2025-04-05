@@ -11,7 +11,6 @@ public class INCLASS {
             System.out.println("b+ grade");
         }else if (x >60 & x <=70){
             System.out.println("b grade");
-
         }else if (x >50 & x <= 60){
             System.out.println("c+ grade");
         }else if (x >40 & x <= 50){
