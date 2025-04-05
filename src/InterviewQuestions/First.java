@@ -1,6 +1,8 @@
 package InterviewQuestions;
 
 public class First {
+
+
     /// String vs StringBuilder vs StringBuffer
     /// Singleton class
     /// throw vs throws
