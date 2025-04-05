@@ -29,7 +29,7 @@ public class Read {
     /// type safefy and flexibility to work with any type
 
     /// Maven - Project management tool/ Build tool
-    /// mvn clean mvn clean install mvn package mvn test
+    /// mvn clean install mvn package mvn test
 
     /// Lombok
     /// reduce the boilerplate code. @Annotations.
@@ -59,7 +59,7 @@ public class Read {
   ///     n + n/2 + 1
           //  new array of size 16 is created.
 
-            // if we know the size = array if we dont know the size , its gonna grow dynamically = arraylist
+            // if we know the size = array if we don't know the size , it's going to grow dynamically = arraylist
 
 
 // Java 8
@@ -67,7 +67,7 @@ public class Read {
             //  List<Integer> list = new ArrayList<>();
     /*
 
-    ## Lazy Initilization of arrayList
+    ## Lazy Initialization of arrayList
     array of size 0 is created.
     when you insert first element
     then array of size 10 will be created.
@@ -82,7 +82,7 @@ public class Read {
 
 /// for insertion linkedList ArrayList
 
-/// if we have to add element at first/first occurent in list which one we should use arraylist or linkedlist - 1M elements elements
+/// if we have to add element at first/first current in list which one we should use arraylist or linked list - 1M elements
 
 /// 0 1 2.... 1M
 
