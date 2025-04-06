@@ -13,6 +13,7 @@ public class ArrayList {
         list.add(414);
         list.add(544);
         list.add(24);
+        list.add(24);
         list.add(null);
 
 

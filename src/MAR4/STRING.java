@@ -9,6 +9,7 @@ public class STRING {
         String s2 = "orange ";
         String s3 = "apple";
         String s4 = new String("apple");
+        String s5 = new String("apple");
 
         ///  == -----> compare reference
         ///  equals -----> content compare
@@ -17,6 +18,7 @@ public class STRING {
         System.out.println(s1.equals(s4));
         System.out.println(s1==s3);
         System.out.println(s1==s4);
+        System.out.println(s4==s5);
         System.out.println(s2.equals(s4));
     /*
 
