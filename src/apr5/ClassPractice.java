@@ -32,6 +32,8 @@ public class ClassPractice {
 
         ///  FIND THE DUPLICATE FROM THE ARRAY.
 
+        Set<Integer> seen = new HashSet<>();
+
 
 
 
@@ -39,3 +41,4 @@ public class ClassPractice {
 
     }
 }
+/* https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/*/

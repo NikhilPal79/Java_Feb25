@@ -12,7 +12,7 @@ public class SetDemo {
 
         Set<Integer> set = new HashSet<>();
 
-        ///  RANDOM ORDER
+        ///  RANDOM ORDER, ALLOW THE NULL ELEMENT JUST 1.
 
         set.add(15);
         set.add(80);
@@ -29,7 +29,7 @@ public class SetDemo {
 
 
         Set<String> s = new HashSet<>();
-        /// RANDOM ORDER
+        /// RANDOM ORDER, ALLOW THE NULL ELEMENT JUST 1.
         s.add("Nikhil");
         s.add("neeraj");
         s.add("simran");

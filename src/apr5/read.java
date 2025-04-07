@@ -36,6 +36,6 @@ public class read {
 /// SET
 
 /// 1. HashSet ==========> RANDOM ORDER, ALLOW THE NULL ELEMENT.
-/// 2. TreeSet ==========> NATURAL SORTING ORDER NO NULL IS ALLOWED
+/// 2. TreeSet ==========> NATURAL SORTING ORDER,NO NULL IS ALLOWED
 /// 3. LinkedHashSet ====> ORDER IS MAINTAINED INSERTION ORDER
 
