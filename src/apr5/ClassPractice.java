@@ -28,15 +28,27 @@ public class ClassPractice {
 
         System.out.println(set);
         System.out.println(set.size());
+        System.out.println();
 
 
         ///  FIND THE DUPLICATE FROM THE ARRAY.
 
         Set<Integer> seen = new HashSet<>();
+        Set<Integer> duplicates = new HashSet<>();
 
 
+        ///  seen.add(num) returns false if the number was already in the set.
+        ///  We then add that number to the duplicates set.
 
+        for (int num : arr) {
+            if (!seen.add(num)){
+                duplicates.add(num);
+            }
+        }
 
+        System.out.println("Duplicates : " + duplicates);
+
+        System.out.println(duplicates.size());
 
 
     }
