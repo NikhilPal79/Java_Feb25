@@ -15,9 +15,9 @@ public class ArrayClass {
 
         ///  using
 
-        Arrays.binarySearch(arr,34);
-
-
+        int result = Arrays.binarySearch(arr, 232);
+///  returns the index
+        System.out.println(result);
 
 
     }

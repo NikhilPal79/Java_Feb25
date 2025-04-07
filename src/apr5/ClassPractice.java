@@ -19,7 +19,7 @@ public class ClassPractice {
         System.out.println(list.size());
         System.out.println();
 
-        ///  given array is converted into list
+        ///  given array is converted into list(list allows duplicates )
 
         ///  to remove the duplicate we need to convert list into set as set store the unique values
 
