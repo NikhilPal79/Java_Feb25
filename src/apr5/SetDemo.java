@@ -6,7 +6,13 @@ public class SetDemo {
     public static void main(String[] args) {
 
         ///  trying SET
+        // 1. stores unique values(no duplicates )
+        // 2. does not have order
+        // 3. can have null but just.
+
         Set<Integer> set = new HashSet<>();
+
+        ///  RANDOM ORDER
 
         set.add(15);
         set.add(80);
@@ -23,6 +29,7 @@ public class SetDemo {
 
 
         Set<String> s = new HashSet<>();
+        /// RANDOM ORDER
         s.add("Nikhil");
         s.add("neeraj");
         s.add("simran");
@@ -37,9 +44,11 @@ public class SetDemo {
         System.out.println(s);
         System.out.println();
 
-        ///  TRYING TREESET
+
+        ///  TRYING TREE SET
 
         Set<Integer> t = new TreeSet<>();
+        /// NATURAL SORTING ORDER, NO NULL IS ALLOWED
         t.add(50);
         t.add(8222);
         t.add(1313);
@@ -54,9 +63,10 @@ public class SetDemo {
         System.out.println(t);
         System.out.println();
 
-        ///  TRYING LINKEDSET
+        ///  TRYING LINKED SET
 
         Set<Integer> l =  new LinkedHashSet<>();
+        /// ORDER IS MAINTAINED INSERTION ORDER
         l.add(45);
         l.add(95);
         l.add(115);

@@ -1,6 +1,6 @@
 package InterviewQuestions;
 
-public class ArrayVsLinkedList {
+public class ArrayListVsLinkedList {
 
     /// Array ====> you have to specify the size of array ahead of time, and array is not dynamic.
 
@@ -26,7 +26,7 @@ public class ArrayVsLinkedList {
 
 
     /// LinkedList ====> it is data structure, and it implements or inherits from the list interface internally.
-    // THERE ARE 2 TYPES OF LINKEDLIST.
+    //  THERE ARE 2 TYPES OF LINKEDLIST.
 
     /// SINGLY LINKED LIST ===> its exits in node structure, every node contains two things, 1 element and 2nd address of the next
     /// node and so on forth and every node is connected to each other.

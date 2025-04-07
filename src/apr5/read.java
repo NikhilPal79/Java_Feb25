@@ -8,32 +8,34 @@ public class read {
                 int y = x++;
                 System.out.println(x + y);*/
 
-        int x = 10;
+       /* int x = 10;
         if (x > 5) {
             System.out.println("A");
         } else if (x > 7) {
             System.out.println("B");
         } else {
-            System.out.println("C");
+            System.out.println("C");*/
 
-        }
     }
 }
 
-    /// SET
+
+    /// SET ===> it is also the data structure.
+
     /// Data Structure
-    //1. stores unique values
+    // 1. stores unique values
     // 2. does not have order
     // 3. can have null but just.
 
-///  marker interface without anything inside
+///  MARKER INTERFACE ===> that interface without anything inside, it just mark the class
 
-///  SERIALIZATION =====> READ MORE ABOUT
+///  SERIALIZATION =====> when you convert your object to bite stream and bite stream to object.
+
 
 
 /// SET
 
-/// 1. HashSet ==========> RANDOM ORDER
+/// 1. HashSet ==========> RANDOM ORDER, ALLOW THE NULL ELEMENT.
 /// 2. TreeSet ==========> NATURAL SORTING ORDER NO NULL IS ALLOWED
 /// 3. LinkedHashSet ====> ORDER IS MAINTAINED INSERTION ORDER
 

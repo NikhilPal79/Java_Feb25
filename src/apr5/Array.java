@@ -25,6 +25,7 @@ public class Array {
         System.out.println(Arrays.toString(result));*/
 
         ///  CONVERT ARRAY IN LIST
+
         List<Integer> l1 = Arrays.asList(10, 34, 53, 23, 53, 32, 34, 53, 232, 53, 54323, 43, 34);
         System.out.println(l1);
 
