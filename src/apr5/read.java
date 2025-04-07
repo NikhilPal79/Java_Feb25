@@ -22,5 +22,18 @@ public class read {
 
     /// SET
     /// Data Structure
-    //1. stores
+    //1. stores unique values
+    // 2. does not have order
+    // 3. can have null but just.
+
+///  marker interface without anything inside
+
+///  SERIALIZATION =====> READ MORE ABOUT
+
+
+/// SET
+
+/// 1. HashSet ==========> RANDOM ORDER
+/// 2. TreeSet ==========> NATURAL SORTING ORDER NO NULL IS ALLOWED
+/// 3. LinkedHashSet ====> ORDER IS MAINTAINED INSERTION ORDER
 

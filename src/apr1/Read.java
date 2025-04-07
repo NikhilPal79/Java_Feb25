@@ -39,9 +39,17 @@ public class Read {
     ///@RequiredArgConstructor
 
     ///Collection - 60% interview
+
+
+
+
     ///List - ArrayList - LinkedList
+
+
             ///ArrayList
-    ///internally its backed by Array its dynamic in nature.
+
+
+    ///internally it's backed by Array its dynamic in nature.
 
     /// elements are stored in order of insertion it also allows duplicate elements null is also supported.
 
@@ -59,7 +67,8 @@ public class Read {
   ///     n + n/2 + 1
           //  new array of size 16 is created.
 
-            // if we know the size = array if we don't know the size , it's going to grow dynamically = arraylist
+            // if we know the size = array
+    // if we don't know the size , it's going to grow dynamically = arraylist
 
 
 // Java 8
@@ -67,22 +76,28 @@ public class Read {
             //  List<Integer> list = new ArrayList<>();
     /*
 
-    ## Lazy Initialization of arrayList
+   /// ==================> Lazy Initialization of arrayList
     array of size 0 is created.
     when you insert first element
     then array of size 10 will be created.
 
      */
             ///LinkedList
-    /// Singly linkedlist doubly linkedlist
+/// 2 TYPES OF LINKEDLIST
+
+    /// Singly linkedlist ====>
+    /// doubly linkedlist ====>
 
 ///10 elements 100 1000 1M
 
 /// for search operations ArrayList is preferred? with the index
 
+    // FOR SEARCH OPERATION WE USE ==> ARRAYLIST
+
 /// for insertion linkedList ArrayList
 
 /// if we have to add element at first/first current in list which one we should use arraylist or linked list - 1M elements
+    // WE CHOOSE LINKEDLIST
 
 /// 0 1 2.... 1M
 
