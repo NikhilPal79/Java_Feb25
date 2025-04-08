@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class HashSetDemo {
+public class HashSetDemo2 {
     public static void main(String[] args) {
 
 
@@ -19,7 +19,7 @@ public class HashSetDemo {
 
         System.out.println(set);
 
-        ///  using iterator for Hashset
+        ///  Assignment =====> using iterator for Hashset
 
         ///  BASIC ITERATOR
 

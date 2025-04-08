@@ -2,7 +2,7 @@ package apr5;
 
 import java.util.*;
 
-public class SetDemo {
+public class SetDemo1 {
     public static void main(String[] args) {
 
         ///  trying SET

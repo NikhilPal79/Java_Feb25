@@ -1,9 +1,8 @@
 package apr5;
 
 import java.util.*;
-import sun.text.normalizer.UnicodeSetIterator;
 
-public class IteratorClass {
+public class IteratorClass5 {
     public static void main(String[] args) {
 
 
@@ -76,6 +75,8 @@ public class IteratorClass {
 
         ///  trying listIterator{not important }
 
+        /// NOTE =======> TO USE LIST ITERATOR YOU NEED TO CONVERT THE SET INTO LIST
+
 
         ListIterator<Integer> listIterator = list.listIterator();
 
@@ -88,9 +89,9 @@ public class IteratorClass {
             }
         }
 
-        System.out.println(list);
-        System.out.println(list.size());
-        System.out.println();
+        /*System.out.println(list);
+        System.out.println(list.size());*/
+        /*System.out.println();*/
         System.out.println(listIterator);
 
 
