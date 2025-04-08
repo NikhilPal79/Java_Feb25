@@ -19,7 +19,7 @@ public class Read {
 
         /// HOW TO CREATE A FILE ?
 
-        // comes from  io package
+        // comes from  io package,
         // but before it comes frm nio package
 
         File file = new File("NikFile.doc");

@@ -49,9 +49,20 @@ public class read {
 
 ///  UTILITIES CLASSES ====> ARRAY AND COLLECTIONS ARE UTILITIES CLASSES
 
-/// BIG 0 ?
+/// BIG 0 =====> also known as Big O notation
+
+/*Big O Notation is a metric for determining the efficiency of an algorithm.
+It allows you to estimate how long your code will run on different sets of inputs and
+measure how effectively your code scales as the size of your input increases.*/
+
+// Big O notation measures the efficiency and performance of your algorithm using time and space complexity.
 
 ///  TIME COMPLEXITY ???
 
+// An algorithm's time complexity specifies how long it will take to execute an algorithm as a function of its input size.
+
 ///  SPACE COMPLEXITY ???
+
+// Similarly, an algorithm's space complexity specifies the total amount of space or memory required to execute an algorithm
+// as a function of the size of the input.
 
