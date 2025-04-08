@@ -17,11 +17,7 @@ public class read {
             System.out.println("C");*/
 
 
-        /// BIG 0
 
-        ///  TIME COMPLEXITY
-
-        ///  SPACE COMPLEXITY
 
 
     }

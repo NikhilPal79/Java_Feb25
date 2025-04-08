@@ -6,7 +6,7 @@ public class IteratorClass5 {
     public static void main(String[] args) {
 
 
-        ///  Iterator ===> it is an interface
+        ///  Iterator ===> it is an interface,Iterator enables you to cycle through a collection, obtaining or removing elements.
 
         ///  WHT THERE IS NEED OF ITERATOR ??
 
