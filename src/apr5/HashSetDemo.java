@@ -15,7 +15,7 @@ public class HashSetDemo {
         set.add(75);
         set.add(100);
         set.add(125);
-        /*set.add(null);*/
+        set.add(null);
 
         System.out.println(set);
 
@@ -27,14 +27,18 @@ public class HashSetDemo {
 
         ///  REMOVING ELEMENT
 
-        while (itr.hasNext()){
+            while (itr.hasNext())
+            {
 
-            Integer next = itr.next();
+                Integer next = itr.next();
 
-            if (next == 125 /*&& next != null*/) {
-                itr.remove();
+                try {if (next == 125 && next != null) {
+                    itr.remove();
 
-            }
+                }
+                }catch (NullPointerException e) {
+                    e.printStackTrace();
+                }
         }
         System.out.println(set);
 
