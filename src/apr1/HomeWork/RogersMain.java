@@ -1,5 +1,6 @@
 package apr1.HomeWork;
 
+import javax.lang.model.element.Element;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -7,7 +8,8 @@ import java.util.List;
 public class RogersMain {
     public static void main(String[] args) {
 
-        ///  ASSIGNMENT == CALCULATE HIGHEST SALARY USING STREAM API
+        ///  ASSIGNMENT == CALCULATE HIGHEST SALARY WITH THE EMPLOYEE NAME
+        /// 2ND ====> USING STREAM API
 
         /// TO GET SALARY ADD GETTER
 
@@ -22,13 +24,27 @@ public class RogersMain {
         System.out.println(list);
         System.out.println();
 
-        System.out.println(list.stream().min(Comparator.comparingDouble(Rogers::getSalary)).orElse(null));
+        ///  suppose List first index is maxSalary then convert it int variable
+
+        Rogers MaxSalary = list.get(0);
+
+        for (Rogers e : list) {
+            if (e.salary > MaxSalary.salary) {
+                MaxSalary = e;
+
+            }
+        }
+        System.out.println(MaxSalary);
+
+
+
+       /* System.out.println(list.stream().min(Comparator.comparingDouble(Rogers::getSalary)).orElse(null));
         System.out.println();
         System.out.println(list.stream().max(Comparator.comparingDouble(Rogers::getSalary)).orElse(null));
         System.out.println();
         System.out.println(list.stream().max(Comparator.comparingDouble(Rogers::getId)).orElse(null));
         System.out.println();
-        System.out.println(list.stream().min(Comparator.comparingDouble(Rogers::getId)).orElse(null));
+        System.out.println(list.stream().min(Comparator.comparingDouble(Rogers::getId)).orElse(null));*/
 
     }
 }
