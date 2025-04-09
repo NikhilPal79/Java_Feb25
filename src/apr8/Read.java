@@ -23,4 +23,28 @@ public class Read {
     ///  HashMap is gibing the random order
     // same as HashSet too because it is backed by HashMap
 
+
+    /*Order is random
+    duplicate keys are not allowed
+
+            HashMap   , HashSet
+
+
+    TreeMap  , TreeSet
+
+
+
+            LinkedHashMap , LinkedHashSet
+
+
+    ConcurrentHashMap
+            IdentityHashmap
+    EnumMap
+
+
+    Equals and Hashcode
+if two objects are equal, they should have same hashcode
+if two objects have same hashcode, they may not be equal.*/
+
+
 }
