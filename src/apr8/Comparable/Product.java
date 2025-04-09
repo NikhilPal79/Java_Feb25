@@ -1,4 +1,4 @@
-package apr8.Comparator;
+package apr8.Comparable;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -48,11 +48,8 @@ public class Product implements Comparable<Product> {
     }
 
 
-
     @Override
-    public int compareTo(@NotNull Product o) {
-        return Integer.compare(this.productId , o.productId);
+    public int compareTo(Product o) {
+        return this.productId- o.productId;
     }
-
-
 }

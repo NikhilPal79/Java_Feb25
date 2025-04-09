@@ -2,13 +2,18 @@ package apr8.Comparator;
 
 import org.jetbrains.annotations.NotNull;
 
-public class NameComparator implements Comparable<BankClass> {
+import java.util.Comparator;
 
-
+public class NameComparator implements Comparator<BankClass> {
 
     @Override
-    public int compare(@NotNull BankClass b1 , BankClass b2) {
+    public int compare(BankClass b1, BankClass b2) {
         return b1.getAccountHolderName().compareTo(b2.getAccountHolderName());
-        //m1.getBrand().compareTo(m2.getBrand());
     }
 }
+
+
+        /*BankClass b1, BankClass b2, BankClass b3, BankClass b4
+
+
+b1.getAccountHolderName().compareTo(b2.getAccountHolderName())*/
