@@ -10,7 +10,7 @@ public class Read {
 
     /// Data structure : how we structure our data for efficient access or storage of data.
 
-    // Its framework for modifiying/manupulating objects.
+    // Its framework for modifying/manipulating objects.
 
     // It has set of interfaces and classes which are already defined for us.
 

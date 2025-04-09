@@ -11,9 +11,9 @@ public class Read {
 
     // type casting ? convert one type to another type
 
-    // int -> float Upcasting/downcasting
+    // int -> float Upcasting/down casting
 
-    // Autoboxing - Unboxing
+    ///  Autoboxing - Unboxing
 
     // automatic conversion between primitive types to Object
 
@@ -35,6 +35,7 @@ public class Read {
     // Object 1 - xtv12sd Object 2 - xtv12sd
 
     ///  NOTE =============>
+
     /// Internal implementation of HashMap -- [Important question for interview]
 
     /// *************************************************************************************************************

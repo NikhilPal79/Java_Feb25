@@ -6,7 +6,7 @@ public class Read {
 
     // It is a build tool. project management tool
 
-    /// LOMBOK ? Library boiler plate code
+    /// LOMBOK ? Library boilerplate code
 
     /// Autovalue
 

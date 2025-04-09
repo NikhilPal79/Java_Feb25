@@ -17,7 +17,7 @@ public class Ontario <X,Y,Z>{   /// USE VARIABLE BETWEEN <___>
         this.numberOfCollege = numberOfCollege;
     }
 
-    ///  create tostring
+    ///  create toString
 
     @Override
     public String toString() {

@@ -19,14 +19,14 @@ public class Read {
 
     /// string constant pool
 
-    /// Literal - String s = "Pragra"; // where? SCP inside the heap
+    /// Literal - String s = "Pragra"; // where? SCP(String Constant Pool) inside the heap
     /// New keyword - String s1 = new String("Pragra"); // inside the heap memory but outside scp.
     /// Character array. sequence of characters.
 
     /// Intro to Collections Equals and Hashcode
 
     /// Generic Classes
-    /// type safefy and flexibility to work with any type
+    /// type safety and flexibility to work with any type
 
     /// Maven - Project management tool/ Build tool
     /// mvn clean install mvn package mvn test
@@ -97,7 +97,7 @@ public class Read {
 /// for insertion linkedList ArrayList
 
 /// if we have to add element at first/first current in list which one we should use arraylist or linked list - 1M elements
-    // WE CHOOSE LINKEDLIST
+    // WE CHOOSE LINKED LIST
 
 /// 0 1 2.... 1M
 

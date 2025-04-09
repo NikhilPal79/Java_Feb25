@@ -22,7 +22,7 @@ public class Read {
         // comes from  io package,
         // but before it comes frm nio package
 
-        File file = new File("NikFile.doc");
+        File file = new File("MikFile.doc");
         System.out.println(file.exists());
         System.out.println(file.length());
         System.out.println(file.canRead());

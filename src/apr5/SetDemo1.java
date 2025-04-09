@@ -8,7 +8,7 @@ public class SetDemo1 {
         ///  trying SET
         // 1. stores unique values(no duplicates )
         // 2. does not have order
-        // 3. can have null but just.
+        // 3. can have null but just 1.
 
         Set<Integer> set = new HashSet<>();
 
