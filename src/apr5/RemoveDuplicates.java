@@ -17,72 +17,40 @@ public class RemoveDuplicates {
 
         ///  REMOVE DUPLICATES
 
-        // GET A EXISTING FILE
-         File file = new File("C:\\Users\\NIKHIL\\IdeaProjects\\Feb2025\\demo.txt");
+        String a = "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum Lorem ipsum dolor sit amet. comes from a line in section ";
 
-         /// READ CONTENT
-
-        BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
-
-        /*
-        FileReader reader = new FileReader("demo.txt");
-
-        int c;
-
-        while ((c = reader.read()) != -1){
-            char ch = (char) c;
-            System.out.println(ch);
-
-        }*/
-
-        /// TRYING METHOD RealAllLines
-
-        List<String> string = Files.readAllLines(Paths.get("C:\\Users\\NIKHIL\\IdeaProjects\\Feb2025\\demo.txt"));
-
-        System.out.println(string);
-        System.out.println(string.size());
+        System.out.println(a);
+        System.out.println(a.length());
         System.out.println();
 
+        ///  split the string into every single character
+        ///  save it as an array because for each loop only applies to array
+
+        String[] splitString = a.split(" ");
+
+        System.out.println(splitString);
+        System.out.println(splitString.length);
+        System.out.println();
+
+        ///  create set for originals and duplicates
+
+        Set<String> originals = new LinkedHashSet<>();
+        Set<String> duplicates = new LinkedHashSet<>();
 
 
-        /// TO REMOVE THE DUPLICATES WE CAN CONVERT THE FILES INTO SET(linkedHashSet)(AS SET DO NOT ALLOW DUPLICATES )
+        for (String element : splitString) {
 
-        Set<String> unique = new LinkedHashSet<>(string);
-
-        System.out.println(unique);
-        System.out.println(unique.size());
-
-        /// TO FIND THE DUPLICATES
-
-        List<String> duplicates = new ArrayList<>(string);
-
-        System.out.println(duplicates);
-        System.out.println(duplicates.size());
-
-        String line;
-
-        while ((line = bufferedReader.readLine()) != null){
-            if (! unique.add(line)) {
-                duplicates.add(line);
+            if (!originals.add(element)) { /// if already add to duplicates
+                duplicates.add(element);
+            }else {
+                originals.add(element);
             }
 
         }
-        /*bufferedReader.close();*/
 
-        for ( String e : unique) {
-            System.out.println(e);
-
-        }
-
-        for (String e2 : duplicates ) {
-            System.out.println(e2);
-        }
-
-        FileWriter writer = new FileWriter("demo.txt");
-
-        for (String l : unique) {
-            writer.write(l + System.lineSeparator());
-        }
+        System.out.println(originals);
+        System.out.println();
+        System.out.println(duplicates);
 
 
     }
