@@ -16,11 +16,12 @@ public class Read {
 
             ///TreeMap
 
-    ///LinkedHashMap
+    /// LinkedHashMap
+    /// ConcurrentHashMap
+    /// IdentityHashMap
+    /// Synchronized HashMap
 
-    /// ConcurrentHashMap IdentityHashMap Synchronized HashMap
-
-    ///  HashMap is gibing the random order
+    ///  HashMap is giving the random order
     // same as HashSet too because it is backed by HashMap
 
 

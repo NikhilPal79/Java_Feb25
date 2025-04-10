@@ -20,6 +20,7 @@ public class RogersMain {
         list.add(new Rogers(7544,"harpinder",56000));
         list.add(new Rogers(2122,"karan",55000));
         list.add(new Rogers(1097,"sukh",62000));
+        list.add(new Rogers(1797,"guri",66100));
 
         System.out.println(list);
         System.out.println();
