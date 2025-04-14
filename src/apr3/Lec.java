@@ -16,7 +16,7 @@ public class Lec {
 
     Example of API. Google Map api, payment system , weather map, Yahoo api
 
-    skyscanner , online e commerce app ,zomato, uber, skipthedishes.
+    skyScanner , online eCommerce app ,zomato, uber, skipTheDishes.
 
     Uber - google map , payment system, Twillio to send notifications
 
@@ -33,7 +33,7 @@ public class Lec {
 
     /// difference between PUT and PATCH ? -
     /// IMPORTANT INTERVIEW PUT and PATCH are for update,
-    /// put - you have to update the whole resource. \
+    /// put - you have to update the whole resource.
 
     /// PUT { "Name" : "Yadav Gupta", "Email" : "yadav@gmail.com", "course" : "Java" }
 
@@ -42,6 +42,7 @@ public class Lec {
     /// { "Name" : "Yadav Gupta" }
 
     ///openweather map api ?
+
     // https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
 
     //https://api.openweathermap.org - Base URL data/2.5/weather - ENDPOINT lat={lat}&lon={lon}&appid={API key} - Query Parameter
