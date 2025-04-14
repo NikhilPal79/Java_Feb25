@@ -48,4 +48,10 @@ if two objects are equal, they should have same hashcode
 if two objects have same hashcode, they may not be equal.*/
 
 
+    /// Comparable	                                      Comparator
+    /// Belongs to the object (class itself)	          Separate object for comparison
+    /// Only one way to compare	                          Can have multiple comparison logics
+    /// Uses compareTo()	                              Uses compare()
+
+
 }
