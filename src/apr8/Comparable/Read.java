@@ -13,4 +13,8 @@ public class Read {
 
 
     /// NOTE=====> method for toCompare act differently for int data type and String data type
+
+
+
+
 }

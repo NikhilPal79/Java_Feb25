@@ -10,6 +10,9 @@ public class MapDemo {
         Map<String,Integer> map = new HashMap<>();
 
         // Product = quantity    // KEY-VALUE PAIR
+
+        ///  add = put
+        
         map.put("smartphone",3 );
         map.put("shoes",15 );
         map.put("shades ",2 );
