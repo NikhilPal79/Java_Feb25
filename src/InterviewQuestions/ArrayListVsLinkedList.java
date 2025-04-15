@@ -13,7 +13,7 @@ public class ArrayListVsLinkedList {
 
 
     ///  Now, when an ArrayList is created, an array of size zero is created.
-    ///  Only when the first element is inserted does the array size change to ten.
+    ///  Only when the first element is inserted then the array size change to ten.
     /// This is called LAZY INITIALIZATION , and it saves a lot of memory.
 
 
@@ -32,7 +32,7 @@ public class ArrayListVsLinkedList {
     /// node and so on forth and every node is connected to each other.
 
 
-    /// DOUBLY LINKED LIST ===> its exits in node structure, every node contains 3 things, 1 element and 2nd address of the next
+    /// DOUBLY LINKED LIST ===> its also exits in node structure, every node contains 3 things, 1 element and 2nd address of the next
     ///  node,3rd address of the previous mode and so on forth and every node is connected to each other.
 
 
