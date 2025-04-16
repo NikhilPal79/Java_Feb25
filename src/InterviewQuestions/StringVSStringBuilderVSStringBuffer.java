@@ -1,6 +1,6 @@
 package InterviewQuestions;
 
-public class StringStringBuilderStringBuffer {
+public class StringVSStringBuilderVSStringBuffer {
     public static void main(String[] args) {
 
     }
@@ -18,8 +18,8 @@ public class StringStringBuilderStringBuffer {
     /// StringBuilder
 
     // Mutable → You can modify the content without creating a new object.
-    //Not thread-safe → No synchronization.
-    //Faster than StringBuffer for single-threaded operations.
+    // Not thread-safe → No synchronization.
+    // Faster than StringBuffer for single-threaded operations.
 
     // StringBuilder sb = new StringBuilder("Hello");
     // sb.append(" World");  // Modifies the same object
@@ -36,6 +36,13 @@ public class StringStringBuilderStringBuffer {
     // sbf.append(" World");
     // System.out.println(sbf); // Output: Hello World
 
+    /// Comparison Summary:
+    ///
+    /// Feature	               String	                     StringBuilder	                            StringBuffer
+    /// Mutable?	           ❌ No	                     ✅ Yes	                                    ✅ Yes
+    /// Thread-safe?	       ❌ No	                     ❌ No	                                    ✅ Yes
+    /// Performance	           Slowest	                     Fastest (single thread)	                Slower (thread-safe)
+    /// Use case	   When string won’t change often	     When string changes a lot in one thread    When string changes in multiple threads
 
 
 }
