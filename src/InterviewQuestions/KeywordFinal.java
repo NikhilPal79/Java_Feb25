@@ -1,6 +1,6 @@
 package InterviewQuestions;
 
-public class Final {
+public class KeywordFinal {
 
 
     /// The final keyword in Java is used to restrict modification.
