@@ -52,6 +52,9 @@ if two objects have same hashcode, they may not be equal.*/
     /// Belongs to the object (class itself)	          Separate object for comparison
     /// Only one way to compare	                          Can have multiple comparison logics
     /// Uses compareTo()	                              Uses compare()
+    
+    
 
 
 }
+
