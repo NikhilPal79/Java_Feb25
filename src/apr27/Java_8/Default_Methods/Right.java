@@ -1,4 +1,4 @@
-package apr27.Default_Methods;
+package apr27.Java_8.Default_Methods;
 
 public interface Right {
 

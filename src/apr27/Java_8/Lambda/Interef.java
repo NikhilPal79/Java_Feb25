@@ -1,4 +1,4 @@
-package apr27.Lambda;
+package apr27.Java_8.Lambda;
 
 public interface Interef {
     public void  m1();
