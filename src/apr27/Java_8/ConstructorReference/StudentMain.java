@@ -19,6 +19,7 @@ public class StudentMain {
         /// using constructor reference
 
         StudentInter studentInter1 = Student::new;
+
         Student student1 = studentInter.getStudent();     ///calling constructor
         student1.display();                               /// calling method
 
