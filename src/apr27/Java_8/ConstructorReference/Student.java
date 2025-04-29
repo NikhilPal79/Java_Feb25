@@ -2,17 +2,12 @@ package apr27.Java_8.ConstructorReference;
 
 public class Student {
 
-    private String name;
+    public Student() {
+        System.out.println("i am student constructor");
 
-    public Student(String name) {
-        this.name = name;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public void display(){
+        System.out.println("i am student method ");
     }
 }
