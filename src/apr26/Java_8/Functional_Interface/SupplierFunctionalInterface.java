@@ -1,4 +1,4 @@
-package apr27.Java_8.Functional_Interface;
+package apr26.Java_8.Functional_Interface;
 
 import java.util.function.Supplier;
 

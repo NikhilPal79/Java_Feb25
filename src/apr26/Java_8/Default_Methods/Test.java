@@ -1,4 +1,4 @@
-package apr27.Java_8.Default_Methods;
+package apr26.Java_8.Default_Methods;
 
 public class Test implements Left, Right{
 

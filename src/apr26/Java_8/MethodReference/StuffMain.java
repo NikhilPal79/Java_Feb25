@@ -1,4 +1,4 @@
-package apr27.Java_8.MethodReference;
+package apr26.Java_8.MethodReference;
 
 public class StuffMain {
     public static void main(String[] args) {
