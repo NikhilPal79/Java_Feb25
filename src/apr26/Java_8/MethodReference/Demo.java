@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /// CASE --2
-/// if the function is not static then create a object of the class
+/// if the function is not static then create an object of the class
 
 public class Demo {
 
