@@ -1,4 +1,4 @@
-package EqualAndHashCodeContract;
+package InterviewQuestions.EqualAndHashCodeContract;
 
 import java.util.Objects;
 

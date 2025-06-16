@@ -1,6 +1,4 @@
-package EqualAndHashCodeContract.CASE3;
-
-import java.util.Objects;
+package InterviewQuestions.EqualAndHashCodeContract.CASE3;
 
 public class Student {
 

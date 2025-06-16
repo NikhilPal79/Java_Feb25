@@ -1,4 +1,4 @@
-package EqualAndHashCodeContract;
+package InterviewQuestions.EqualAndHashCodeContract;
 
 public class Test {
     public static void main(String[] args) {

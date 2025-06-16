@@ -1,4 +1,4 @@
-package EqualAndHashCodeContract.CASE3;
+package InterviewQuestions.EqualAndHashCodeContract.CASE3;
 
 import java.util.HashMap;
 import java.util.Map;
