@@ -6,21 +6,21 @@ public class Read {
     what is Java?
             1. Programming Language
 2. write once and run anywhere - Platform Independent
-3. OOPS - Object Oriented Paradigm
-4. Robut and secure 
+3. OOPS - Object-Oriented Paradigm
+4. Robust and secure
 5. Multithreading
 6. efficient/ Performance
-7. HLL
+7. HLL = high level language
 8. Byte code
 
 
     Language
 1. C / C ++
-            2. Javscript
+2. Javscript
 3. Python
 4. php
 5. C#
-            6. Go Lang
+6. Go Lang
 7. ruby
 8. kotlin
 9. Objective C

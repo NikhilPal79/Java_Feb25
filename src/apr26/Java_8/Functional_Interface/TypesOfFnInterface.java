@@ -4,8 +4,8 @@ public class TypesOfFnInterface {
 
     /// 4 type of funcitinonal interface
 
-    /// 1. PREDICATE< T > ===> INTAKE NO = RETURN => BOOLEAN(TRUE/FALSE)
-    /// 2. FUNCTION <T,R> = INTAKE T == RETURN R =>
-    /// 3. CONSUMER < T > = INPUT T(ACCEPT VALUES ) == RETURN NOTHING(NO VALUES )
+    /// 1. PREDICATE< T > = TEST A CONDITION         == RETURN => BOOLEAN(TRUE/FALSE)
+    /// 2. FUNCTION <T,R> = INTAKE T                 == RETURN R =>
+    /// 3. CONSUMER < T > = INPUT T(ACCEPT VALUES )  == RETURN NOTHING(NO VALUES )
     /// 4. SUPPLIER < R > = INPUT NOTHING(NO VALUE ) == RETURN R (RETURN VALUE )
  }
