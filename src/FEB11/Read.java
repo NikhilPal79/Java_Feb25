@@ -55,8 +55,8 @@ public class Read {
 
 
     data type
-1. int                  - 4 bytes [32 bits ]
-            2. long              - 8 bytes
+1. int               - 4 bytes [32 bits ]
+2. long              - 8 bytes
 3. char - 'A'          2 bytes
 4. float  - decimal    4 bytes
 5. double  - decimal   8 bytes

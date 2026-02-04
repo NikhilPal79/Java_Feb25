@@ -73,9 +73,13 @@ ls -lrt ,
 ls - lt,
 ls -lr -l ---- long list -r -- reverse sort order -t -- based on time
 
--rw-r--r--. - Permissions and file type 1 Memory Block ec2-user - owner name
-ec2-user - group name 0 - Size of file in Bytes
-Feb 14 02:07 - Date and time file2**** - Name of the file
+-rw-r--r--. - Permissions and file type
+1 Memory Block
+ec2-user - owner name
+ec2-user - group name
+0 - Size of file in Bytes
+Feb 14 02:07 - Date and time
+file2**** - Name of the file
 
 d - directory - same as folder in windows
 
