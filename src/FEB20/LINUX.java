@@ -6,12 +6,22 @@ public class LINUX {
         Permissions
 -rw-r--r--. 1 ec2-user ec2-user 7 Feb 14 02:45 phone r - read w - write x - execute
 
-rw- owner permission r-- group permission, L1 r-- other permission
+rw- owner permission
+r-- group permission, L1
+r-- other permission
 
 chmod 7 - rwx to owner 7 - rwx to group 7 - rwx - other phone
 
 chmod 777 file_name
-permission 0 - no permission 1 - execute permission 2 - write permission 3 - write and execute permission 4 - read permission 5 - read and execute permission 6 - read and write permission 7 all permissions
+permission
+0 - no permission
+1 - execute permission
+2 - write permission
+3 - write and execute permission
+4 - read permission
+5 - read and execute permission
+6 - read and write permission
+7 - all permissions
 
 create a directory named as pragra create 3 files
 
